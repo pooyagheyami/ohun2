@@ -1,0 +1,33 @@
+{% block Header %}
+<!-- Header section -->
+	<header class="header-section clearfix">
+		<a href="index.html" class="site-logo">
+			<img src="static/img/logo.png" alt="">
+		</a>
+		<div class="header-right">
+			<a href="#" class="hr-btn">Help</a>
+			<span>|</span>
+			<div class="user-panel">
+				<a href="document.getElementById('id01').style.display='block'" class="login" style="width:auto;">Login</a>
+				<a href="" class="register">Create an account</a>
+			</div>
+			<?php include 'login.php'; ?>
+		</div>
+		<ul class="main-menu">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Pages</a>
+				<ul class="sub-menu">
+					<li><a href="category.html">Category</a></li>
+					<li><a href="playlist.html">Playlist</a></li>
+					<li><a href="artist.html">Artist</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</li>
+			<li><a href="blog.html">News</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</header>
+	<!-- Header section end -->
+{% endblock %}
